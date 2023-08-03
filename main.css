@@ -1,0 +1,83 @@
+main {
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*main content*/
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    margin-bottom: 5px;
+    font-size: 2.0em;
+}
+
+main .main-content .text p {
+    width: 60%;
+    font-size: 1.0em;
+    margin-bottom: 10%;
+    line-height: 1.6;
+}
+
+main .main-content .text a {
+    font-size: 1.5em;
+}
+
+
+/*Cards*/
+main .techs .cards-container {
+    display: flex;
+    align-items: center;   
+}
+
+main .techs .cards-container .card {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    background-color:ghostwhite;
+    border-radius: 8px;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .techs .cards-container .card img {
+    width: 65px;
+    
+}
+
+main .techs .cards-container .card:hover {
+    box-shadow: 0px 0px 8px #87ceeb ;
+}
+
+/*Figure*/
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img {
+    width: 320px;
+    height: 320px;
+    border-radius: 200px;
+    margin-bottom: 6%;
+}
+
+
+
+
+
+
+
